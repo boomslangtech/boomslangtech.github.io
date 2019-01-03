@@ -1,0 +1,4 @@
+Sitemap: https://blog.boomslang.mx/sitemapindex.xml
+
+User-Agent: *
+Host: blog.boomslang.mx

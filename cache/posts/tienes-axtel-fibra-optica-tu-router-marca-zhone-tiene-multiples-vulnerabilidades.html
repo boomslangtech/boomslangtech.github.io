@@ -1,0 +1,74 @@
+<p>If you use Axtel fiber, you are likely vulnerable to several different vulnerabilities.  In addition to vulnerabilites present on the router, the default password to access your WiFi network is extremely weak.  It consists of only eight digits, four of which match the signal name itself leaving only 10,000 possible password combinations!  Even without WiFi hacking knowledge, this password could be guessed by a determined attacker in a relatively short period of time!</p>
+<h1>Multiple vulnerabilities...from 2014!</h1>
+<p><em>CVE-2014-9918</em> details five security vulnerabilities in the Zhone router (24xx, 24xxA, 42xx, 42xxA, 26xx, and 28xx models) firmware from that time.  These range from information disclosure to code injection to full admin privelege escalation.  With IOT botnets on the rise, this is something to be aware of and fix as quickly as possible! <a href="https://www.cvedetails.com/cve/CVE-2014-9118/">CVE-2014-9918</a> contains the details of the security advisory and has a few links with further details including information how to exploit the vulnrabilities so you can verify them for yourself.</p>
+<h1>How to check</h1>
+<p>Go to your router page <a href="http://192.168.15.1">http://192.168.15.1</a> and log in with the user and password you have configured.  You may also log in with one of the following users:</p>
+<table>
+<thead>
+<tr>
+<th>username</th>
+<th>password</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Admin</td>
+<td>Admin</td>
+</tr>
+<tr>
+<td>admin</td>
+<td>T1r46n0S4ur10</td>
+</tr>
+<tr>
+<td>admin</td>
+<td>cciadmin</td>
+</tr>
+<tr>
+<td>admin</td>
+<td>zhone</td>
+</tr>
+<tr>
+<td>user</td>
+<td>gttuser</td>
+</tr>
+<tr>
+<td>user</td>
+<td>user</td>
+</tr>
+</tbody>
+</table>
+<p>Once logged in, you will see a page that looks like the following:</p>
+<p><img alt="Zhone configuration page" src="/images/zhone.config.png"></p>
+<p>You can see the router information including model number, software version information, and more.  To verify that your router is vulnerable, check the dates at the very bottom of the screen.  If it says "2009-2014", you are most likely vulnerable.  This can be verified by testing one of the exploits shown above.  The following models are vulnerable:</p>
+<table>
+<thead>
+<tr>
+<th>Model</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>24xx</td>
+</tr>
+<tr>
+<td>24xxA</td>
+</tr>
+<tr>
+<td>42xx</td>
+</tr>
+<tr>
+<td>42xxA</td>
+</tr>
+<tr>
+<td>26xx</td>
+</tr>
+<tr>
+<td>28xx</td>
+</tr>
+</tbody>
+</table>
+<h1>Additional Problems</h1>
+<p>The default wireless key given is extremely vulnerable to attack.  On the router configuration main page, note the FSAN number.  That number is most likely the default password you are using.  Also note that the name of your SSID is "AXTEL XTREMO-####" where the four digits in the SSID are the last four digits of your FSAN.  This means that the key can be guessed within 10.000 tries!  With password cracking tools, this would take a fraction of a second and a determined attacker could even guess it by hand given enough (not much!) time.</p>
+<h1>The Fix</h1>
+<p>Unfortunately, there is no easy way for the user to upgrade the firmware and the firmware upgrade is not publicly available.  This responsibility to upgrade the firmware falls on Axtel and should have been done before delivering the routers to customers.  The simplest course of action is to change the passwords for the default user as well as the wifi access point.  This can be done in the configuration page you visited in order to verify the vulnerability of the router.</p>
+<p>The best course of action, however, is to purchase a third party router (Linksys, D-Link, etc.), configure it securely, and disable the wireless access to the Zhone router alltogether.</p>
