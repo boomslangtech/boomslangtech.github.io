@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:xhtml="http://www.w3.org/1999/xhtml"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+ <url>
+  <loc>https://blog.boomslang.mx/</loc>
+  <lastmod>2018-12-03T13:41:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/archive.html</loc>
+  <lastmod>2019-01-03T22:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/categories/</loc>
+  <lastmod>2018-11-09T17:27:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/en/</loc>
+  <lastmod>2018-12-03T13:36:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/en/archive.html</loc>
+  <lastmod>2019-01-03T22:52:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/en/categories/</loc>
+  <lastmod>2018-12-02T23:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/en/galleries/</loc>
+  <lastmod>2018-12-02T23:35:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/galleries/</loc>
+  <lastmod>2018-12-03T13:39:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://blog.boomslang.mx/listings/</loc>
+  <lastmod>2018-11-09T17:27:00Z</lastmod>
+ </url>
+</urlset>
